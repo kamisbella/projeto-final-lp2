@@ -25,7 +25,7 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | ChatGPT | Imagem dos títulos | site/index.html | Usei a IA para fazer os títulos da pagina com a fonte do desemho | coloquei as imagens geradas na pagina e editei o tamanho  | prints/ia-01.png |
+| 2026-11-05 | ChatGPT | Imagem dos títulos | site/index.html | Usei a IA para fazer os títulos da pagina com a fonte do desemho | coloquei as imagens geradas na pagina e editei o tamanho  | print.01 |
 | 2026-11-12 | Meta AI | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
 | 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
 
