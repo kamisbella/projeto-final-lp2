@@ -15,7 +15,7 @@ arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
+| Kamila Fernanda Jesus Paulista | [Ex.: Figma, estrutura HTML,CSS,JavaScript e documentação] |
 | [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
 | [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
