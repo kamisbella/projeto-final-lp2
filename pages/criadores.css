@@ -1,0 +1,27 @@
+body {
+    background-color: #dcd8f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    color: #55528c;
+}
+
+
+.criador img{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin: 35px;
+}
+
+.criador img {
+    width: 170px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #aaa3d8;
+}
+
+.criador img {
+    color: #625e9b;
+    font-size: 16px;
+    line-height: 1.5;
+}
