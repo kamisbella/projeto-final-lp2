@@ -1,0 +1,11 @@
+body{
+    background-color:  #C7E0E8;
+}
+.titulo1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
