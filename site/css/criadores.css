@@ -1,0 +1,27 @@
+body {
+    background-color: #dcd8f5;
+    font-family: Arial, sans-serif;
+    color: #55528c;
+}
+
+
+.criador {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 35px;
+}
+
+.criador img {
+    width: 170px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #aaa3d8;
+}
+
+.criador j {
+    color: #625e9b;
+    font-size: 16px;
+    line-height: 1.5;
+}
