@@ -16,13 +16,13 @@ arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
 | Kamila Fernanda Jesus Paulista | Figma, estrutura HTML,CSS,JavaScript e atualização da documentação do github |
-| [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
+| Sophia Rocha Borges | [ Estilos CSS,HTML e Figma] |
 | [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** https://www.figma.com/design/C6acunxB3de6bacYZO7oE0/Hora-de-aventura-job?node-id=0-1&t=ynkDS3bjGZLp7jVU-1
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
