@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>criadores</title>
     <link rel="stylesheet" href="../css/criadores.css">
-    <link rel="icon" type="imgage/jpg" href="img/jake.icon.jpg">
+    <link rel="icon" type="image/jpg" href="../img/jake.icon.jpg">
 </head>
 
 <body>
@@ -37,7 +37,6 @@
         <div class="texto">
 
             <p>
-
                 Sou atleta e apaixonado pelo esporte,
                 principalmente pelo vôlei, que faz parte da minha vida.
                 Minha cor favorita é azul, gosto muito de decoração
@@ -46,14 +45,11 @@
                 minha personalidade em tudo que faço. Tenho 16 anos,
                 sou responsável e gosto de trabalhar com cores,
                 estampas e padronização.
-
             </p>
 
         </div>
 
     </div>
-
-
 
     <div class="criador">
 
@@ -61,9 +57,7 @@
 
         <div class="texto">
 
-
             <p>
-
                 Meu nome é Kamila Paulista, tenho 17 anos e sou
                 responsável pela parte de Figma, HTML e CSS do projeto.
                 Sou apaixonada por criatividade e arte. Amo cozinhar,
@@ -71,47 +65,63 @@
                 são Lil Peep, Frank Ocean, Daniel Caesar e XXXTentacion.
                 Gosto de explorar novas ideias, aprender coisas diferentes
                 e transformar minha criatividade em projetos.
-
             </p>
 
         </div>
 
     </div>
 
-
-
     <div class="criador">
 
+       
 
+            <img src="../img/sophia.jpg" width="300px" alt="Sophia Borges">
 
-        <div class="texto">
-
-
-            <img src="../img/sophia.jpg" width="300px"></img>
-
+             <div class="texto">
             <p>
-
                 Meu nome é Sophia Borges, tenho 17 anos e sou responsável
                 pelo Figma e CSS do projeto. Amo escutar músicas,
                 cozinhar e dançar. Meus cantores favoritos são Alcione,
                 Zeca Pagodinho e Jorge Ben. Gosto de aprender coisas
                 novas .
-
             </p>
-            <a href="questionario.html">
-                Responder questionário
-            </a>
         </div>
 
     </div>
 
+    <!-- Questionário Simples Integrado -->
+    <div class="quiz-simples">
+        <h3>Pergunta: Qual é o reino da Princesa Jujuba?</h3>
+        <form id="quiz-simples-form">
+            <label><input type="radio" name="resp" value="errado"> Reino Gelado</label>
+            <label><input type="radio" name="resp" value="certo"> Reino Doce</label>
+            <label><input type="radio" name="resp" value="errado"> Reino dos Goblins</label>
+            <button type="button" onclick="verificar()">Enviar</button>
+        </form>
+        <p id="msg"></p>
     </div>
 
+    <script>
+        function verificar() {
+            const r = document.querySelector('input[name="resp"]:checked');
+            const m = document.getElementById('msg');
+            if (!r) {
+                m.innerText = "Escolha uma opção!";
+                m.style.color = "red";
+            } else if (r.value === "certo") {
+                m.innerText = "Acertou mizerável!";
+                m.style.color = "green";
+            } else {
+                m.innerText = "Errou feio!";
+                m.style.color = "red";
+            }
+        }
+    </script>
 
     <footer>
         <div class="footer-texto">
             <p>Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro</p>
-            <p>Desenvolvido por Kamila Paulista,Sophia Borges e João Paulo</p>
+            <p>Desenvolvido por Kamila Paulista, Sophia Borges e João Paulo</p>
             <p>Todos os Direitos Reservados © 2026</p>
         </div>
     </footer>

@@ -3,7 +3,7 @@
 body {
     background-color: #F4D78D;
     color: #F4D78D;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     object-fit: contain;
     border-radius: 20%;
     flex-direction: column;
@@ -11,8 +11,6 @@ body {
     margin: 0px;
     padding: 0px 20px;
 }
-
-
 
 nav {
     margin-top: 20px;
@@ -39,7 +37,7 @@ nav {
 
 .links-nav a {
     text-decoration: none;
-    color: #8A8E94;
+    color: #625e9b;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
@@ -49,10 +47,11 @@ nav {
     border-radius: 12px;
 }
 
-.titulo-inicio {
+.imagem-inicio {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 220px;
 }
 
 .menu {
@@ -68,7 +67,7 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: #409CC3;
+    color: #625e9b;
     font-size: 22px;
     font-weight: bold;
 }
@@ -82,7 +81,7 @@ nav {
     padding: 10px;
     list-style: none;
     border: 2px solid;
-    border-color: #498EA5;
+    border-color: #625e9b;
     border-radius: 20px;
     z-index: 1000;
 }
@@ -98,3 +97,60 @@ nav {
     background-color: white;
 }
 
+/* --- PARTE DE SÉRIES (IGUAL AO FIGMA) --- */
+
+.titulo-inicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo-inicio img {
+    width: 350px;
+}
+
+.serie {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin: 45px 60px;
+}
+
+.serie img {
+    width: 170px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.texto p {
+    color: #86681E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 650px;
+}
+
+/* --- FIM DA PARTE DE SÉRIES --- */
+
+footer {
+    border-radius: 12px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px 10px 8px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer-texto {
+    text-align: center;
+    color: #625e9b;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.footer-texto p {
+    margin: 2px 0;
+}
