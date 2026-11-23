@@ -37,7 +37,7 @@ nav {
 
 .links-nav a {
     text-decoration: none;
-    color: #625e9b;
+    color: #86681E;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
@@ -67,7 +67,7 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: #625e9b;
+    color: #86681E;
     font-size: 22px;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@ nav {
     padding: 10px;
     list-style: none;
     border: 2px solid;
-    border-color: #625e9b;
+    border-color: #86681E;
     border-radius: 20px;
     z-index: 1000;
 }
@@ -97,7 +97,6 @@ nav {
     background-color: white;
 }
 
-/* --- PARTE DE SÉRIES (IGUAL AO FIGMA) --- */
 
 .titulo-inicio {
     display: flex;
@@ -132,7 +131,6 @@ nav {
     max-width: 650px;
 }
 
-/* --- FIM DA PARTE DE SÉRIES --- */
 
 footer {
     border-radius: 12px;
@@ -146,7 +144,7 @@ footer {
 
 .footer-texto {
     text-align: center;
-    color: #625e9b;
+    color: #86681E;
     font-size: 12px;
     line-height: 1.2;
 }
